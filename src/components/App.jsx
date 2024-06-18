@@ -4,6 +4,7 @@ import { ContactsList } from './ContactsList/ContactsList';
 import { nanoid } from 'nanoid';
 import { Filter } from "./Filter/Filter";
 
+
 export const App = () => {
 
   const [contacts, setcontacts] = useState(JSON.parse(localStorage.getItem('contacts')) || []);
